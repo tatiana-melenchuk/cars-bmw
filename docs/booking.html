@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/RozhaOne/stylesheet.css">
+    <link rel="stylesheet" href="fonts/ProximaNova/stylesheet.css">
+</head>
+<body>
+  <h1 id="top">Модельный ряд BMW X Series</h1>  
+   <ul class="navigation">
+       <li>
+           <a href="index.html">О серии X</a>
+       </li>
+       <li>
+           <a href="photo.html">Фотогалерея</a>
+       </li>
+      <li>
+          <a href="contacts.html">Контакты автодилера</a>
+      </li> 
+      <li>
+          <a href="booking.html">Забронировать автомобиль</a>
+      </li>
+       
+   </ul>
+   
+    <h2><small>Зарезервировать автомобиль</small></h2>
+    
+    <form>
+    
+   <label for="model">Модель</label>
+   
+   <select id="model">
+               
+                <option value="1">BMW X1</option>
+                <option value="2">BMW X2</option>
+                <option value="3">BMW X3</option>
+                <option value="4">BMW X4</option>
+                <option value="5">BMW X5</option>
+                <option value="6">BMW X6</option>
+                <option value="7">BMW X7</option>
+                
+              </select>
+    
+            <h2>Личные данные</h2>
+            
+            <input type="radio" id="gentleman" name="address">
+            <label for="gentleman">Господин</label>
+            
+            <input type="radio" id="lady" name="address">
+            <label for="lady">Госпожа</label>
+            
+            <br><br>
+            
+            <label for="first-name">Имя</label>
+            <input type="text" id="first-name" placeholder="Введите Ваше имя" required>
+            
+            <br><br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Введите Ваш Email" required>
+            
+            <br><br>
+            
+            <label for="phone">Телефон</label>
+            <input type="text" id="phone" placeholder="Введите Ваш номер" required>
+            
+            <br><br>
+            
+            <label for="message">Сообщение</label>
+            
+            <br>
+            
+            <textarea name="name" id="message" cols="50" rows="5"></textarea>
+            
+            <br><br>
+            
+            <input type="submit" value="Забронировать">
+            
+       </form>     
+</body>
+</html>
